@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/jamin/.repo/manifests.git'
+let g:netrw_dirhist_2='/Users/jamin/.repo/manifests.git/objects'
+let g:netrw_dirhist_3='/Users/jamin/.repo/manifests.git/objects/pack'
+let g:netrw_dirhist_4='/Users/jamin/workspace/github/myvim/.git'
+let g:netrw_dirhist_5='/Users/jamin/workspace/github/myvim/.git/objects'
+let g:netrw_dirhist_6='/Users/jamin/workspace/github/myvim/.git/objects/pack'
+let g:netrw_dirhist_7='/Users/jamin/workspace/github/myvim/.git'
