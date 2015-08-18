@@ -39,6 +39,8 @@ call pathogen#infect()
 let Tlist_Show_One_File = 1            "只显示当前文件的taglist，默认是显示多个
 let Tlist_Exit_OnlyWindow = 1          "如果taglist是最后一个窗口，则退出vim
 let Tlist_Use_Right_Window = 1         "在右侧窗口中显示taglist
+let Tlist_Auto_Highlight_Tag = 1
+let Tlist_Compact_Format = 1
 "let Tlist_GainFocus_On_ToggleOpen = 1  "打开taglist时，光标保留在taglist窗口
 let Tlist_Ctags_Cmd='/usr/local/bin/ctags'  "设置ctags命令的位置
 nnoremap <leader>tl : Tlist<CR>        "设置关闭和打开taglist窗口的快捷键
@@ -51,3 +53,20 @@ let g:miniBufExplModSelTarget = 1
 
 let g:neocomplcache_enable_at_startup = 1 
 let g:neocomplcache_enable_auto_select = 1 
+
+" old vimrc
+set ic
+"不生成临时文件
+set nobackup
+set nowritebackup
+:set mps+=<:>
+set nu
+" allow backspacing over everything in insert mode
+set backspace=indent,eol,start
+set history=500		" keep 50 lines of command line history
+set showcmd		" display incomplete commands
+set incsearch		" do incremental searching
+set ts=4 sw=4 sts=4 tw=100
+set autoindent
+set cc=100
+
