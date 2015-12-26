@@ -18,7 +18,7 @@ set ignorecase              "检索时忽略大小写
 set fileencodings=uft-8,gbk "使用utf-8或gbk打开文件
 set hls                     "检索时高亮显示匹配项
 set helplang=cn             "帮助系统设置为中文
-set foldmethod=syntax       "代码折叠
+"set foldmethod=syntax       "代码折叠
 "}}
 
 "conf for plugins {{ 插件相关的配置
@@ -42,7 +42,7 @@ let Tlist_Use_Right_Window = 1         "在右侧窗口中显示taglist
 let Tlist_Auto_Highlight_Tag = 1
 let Tlist_Compact_Format = 1
 "let Tlist_GainFocus_On_ToggleOpen = 1  "打开taglist时，光标保留在taglist窗口
-let Tlist_Ctags_Cmd='/usr/local/bin/ctags'  "设置ctags命令的位置
+"let Tlist_Ctags_Cmd='/usr/local/bin/ctags'  "设置ctags命令的位置
 nnoremap <leader>tl : Tlist<CR>        "设置关闭和打开taglist窗口的快捷键
 "}
 
